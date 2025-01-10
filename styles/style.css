@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+body {
+    background-color: rgb(207, 207, 203);
+}
+
+.icon {
+    height: 59px;
+    width: 59px;
+}
+
 /* nav Styles */
 nav {
     display: flex;
@@ -102,4 +111,59 @@ nav {
     border: none;
     border-radius: 7.5px;
     margin-top: 23px;
+}
+
+/* Pillars */
+.head {
+    margin: 60px 152px 0px 152px;
+    width: 1216px;
+    padding: 0 30px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.pillars {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1280px;
+    margin: 30px 152px;
+}
+
+.pillar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.797);
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 15px;
+    height: 231px;
+    width: 287px;
+    padding: 24px;
+}
+
+.pillar-title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.pillar-sub {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
