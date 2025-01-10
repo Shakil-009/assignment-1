@@ -1,1 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* nav Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 95px;
+    width: 1520px;
+    gap: 18px;
+}
+
+.nav-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 152px;
+}
+
+.navbtn {}
+
+.btn {
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    height: 49px;
+    width: 110px;
+}
+
+.navbtn {
+    padding-right: 152px;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(198, 228, 214);
+    border-radius: 20px;
+    height: 532px;
+    width: 1216px;
+    margin: 0 152px;
+}
+
+.banner .topic {
+    display: flex;
+    flex-direction: column;
+    margin-left: 76px;
+    justify-content: center;
+}
+
+.ban-img {
+    height: 313px;
+    width: 450px;
+    margin-top: 76px;
+    margin-right: 59.99px;
+}
+
+.ban-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    height: 27px;
+    margin-bottom: 16px;
+}
+
+.ban-sub {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+#bbtn {
+    height: 53px;
+    width: 256px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    background-color: rgb(0, 106, 80);
+    border: none;
+    border-radius: 7.5px;
+    margin-top: 23px;
+}
